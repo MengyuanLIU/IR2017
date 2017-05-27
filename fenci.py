@@ -13,7 +13,7 @@ def init():
     docnum=[]
     all=0
     while n<=docs:
-        docname='F:\IR/0-'+str(n)+'.txt'
+        docname='F:\documents//0-'+str(n)+'.txt'
         allnum = 0
         with open(docname,'r') as f:
             date=f.readlines()
